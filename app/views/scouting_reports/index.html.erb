@@ -1,0 +1,12 @@
+<h1>Scouting Reports</h1>
+
+<%= link_to "New Scouting Report", new_scouting_report_path %>
+
+<% @scouting_reports.each do |report| %>
+  <div>
+    <h2><%= link_to report.player_name, scouting_report_path(report.id) %></h2>
+    <p>Position: <%= report.position %></p>
+    <p>School: <%= report.school %></p>
+    <p>Grade: <%= report.grade %></p>
+  </div>
+<% end %>

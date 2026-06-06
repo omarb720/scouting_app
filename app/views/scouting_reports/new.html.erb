@@ -1,0 +1,54 @@
+<h1>Scouting Report</h1>
+
+<%= form_with model: @scouting_report do |form| %>
+  <div>
+    <%= form.label :player_name %>
+    <%= form.text_field :player_name %>
+  </div>
+
+  <div>
+    <%= form.label :position %>
+    <%= form.text_field :position %>
+  </div>
+
+  <div>
+    <%= form.label :school %>
+    <%= form.text_field :school %>
+  </div>
+
+  <div>
+    <%= form.label :height %>
+    <%= form.text_field :height %>
+  </div>
+
+  <div>
+    <%= form.label :weight %>
+    <%= form.text_field :weight %>
+  </div>
+
+  <div>
+    <%= form.label :strengths %>
+    <%= form.text_area :strengths %>
+  </div>
+
+  <div>
+    <%= form.label :weaknesses %>
+    <%= form.text_area :weaknesses %>
+  </div>
+
+  <div>
+    <%= form.label :evaluation %>
+    <%= form.text_area :evaluation %>
+  </div>
+
+  <div>
+    <%= form.label :grade %>
+    <%= form.text_field :grade %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+
+<%= link_to "Cancel", scouting_reports_path %>

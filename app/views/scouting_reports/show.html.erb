@@ -1,0 +1,22 @@
+<h1><%= @scouting_report.player_name %></h1>
+
+<p>Position: <%= @scouting_report.position %></p>
+<p>School: <%= @scouting_report.school %></p>
+<p>Height: <%= @scouting_report.height %></p>
+<p>Weight: <%= @scouting_report.weight %></p>
+
+<h2> Strengths </h2>
+<p><%= @scouting_report.strengths %></p>
+
+<h2> Weaknesses </h2>
+<p><%= @scouting_report.weaknesses %></p>
+
+<h2> Evaluation </h2>
+<p><%= @scouting_report.evaluation %></p>
+
+<h2> Grade </h2>
+<p><%= @scouting_report.grade %></p>
+
+<%= link_to "Back", scouting_reports_path %>
+<%= link_to "Edit", edit_scouting_report_path(@scouting_report) %>
+<%= button_to "Delete", @scouting_report, method: :delete, data: { turbo_confirm: "Are you sure?" } %>

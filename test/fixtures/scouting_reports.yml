@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player_name: MyString
+  position: MyString
+  school: MyString
+  height: MyString
+  weight: MyString
+  strengths: MyText
+  weaknesses: MyText
+  evaulation: MyText
+  grade: MyString
+
+two:
+  player_name: MyString
+  position: MyString
+  school: MyString
+  height: MyString
+  weight: MyString
+  strengths: MyText
+  weaknesses: MyText
+  evaulation: MyText
+  grade: MyString
