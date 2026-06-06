@@ -23,7 +23,7 @@ If I had more time I would:
 2. Have better implementation of partials to avoid repeating code.
 3. Update formatting and styling to make the screen visually appealing 
 4. Add User Authentication 
-5. Group reports by position and potentially incorparte their avergages alonside the scouting report. 
+5. Group reports by position and potentially incorporate their avergages alongside the scouting report. 
 
 ```
 ```bash
