@@ -1,5 +1,5 @@
 class ScoutingReportsController < ApplicationController
-  before_action :set_scouting_report, only: [:show, :edit, :update, :destroy]
+  before_action :set_scouting_report, only: [ :show, :edit, :update, :destroy ]
   def index
     @scouting_reports = ScoutingReport.all
   end
